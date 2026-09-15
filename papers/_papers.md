@@ -1,0 +1,394 @@
+
+# Papers
+
+Links dos trabalhos utilizados:
+
+- **Evolução da estrutura e resultados**: [PDF](evolucao_estrutura_resultados.pdf) -> [artigo](https://www.scielo.br/j/csc/a/rRCVJhncQt95Db9xfMxW6TF/?lang=pt&format=pdf&ilang=en)
+- **Atenção primária à saúde**: [PDF](atencao_primaria_saude.pdf) -> [fonte](http://epsjv.fiocruz.br/upload/d/Atencao_Primaria_a_Saude_-_recortado.pdf)
+- **Territorialização da atenção básica**: [PDF](territorializacao_atencao_basica.pdf) -> [artigo](https://www.scielosp.org/pdf/csc/2020.v25n11/4521-4530/pt)
+- **Atenção e coordenação de redes**: [PDF](atencao_coordenacao_redes.pdf) -> [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/?lang=pt&format=pdf&ilang=en)
+- **Primária, saúde e SUS**: [PDF](primaria_saude_sus.pdf) -> [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
+
+## Resumos
+
+---
+
+### 1. Evolução da estrutura e resultados
+
+**Referência:** Barros, Rafael Damasceno de; Aquino, Rosana; Souza, Luis Eugênio Portela Fernandes. *Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019*. Ciência & Saúde Coletiva, 2022.
+
+#### Objetivo e contexto
+
+O artigo descreve a evolução da estrutura e dos resultados da Atenção Primária à Saúde (APS) nos municípios brasileiros entre 2008 e 2019. A APS é apresentada como uma estratégia capaz de ampliar o acesso, coordenar redes de atenção e reduzir mortes e internações por agravos evitáveis, especialmente doenças crônicas. No Brasil, sua organização ocorre principalmente por meio de equipes multiprofissionais responsáveis por uma população e por um território definido.
+
+O estudo parte do reconhecimento de que a expansão da APS não ocorreu de maneira uniforme. Por isso, além de observar a tendência nacional, os autores investigam se os resultados variam conforme o porte populacional dos municípios e suas condições socioeconômicas. Essa comparação é importante porque municípios maiores ou mais ricos possuem capacidades administrativas, receitas e estruturas de saúde diferentes das encontradas em municípios pequenos e mais privados de recursos.
+
+#### Método
+
+Trata-se de um estudo descritivo baseado em uma série histórica de dados municipais de 2008 a 2019. O trabalho utiliza como referência um modelo lógico de avaliação do desempenho da APS, que organiza a análise em domínios relacionados às necessidades da população, à estrutura e organização dos serviços, à provisão de ações e aos resultados de saúde.
+
+Foram analisados os 5.565 municípios brasileiros. Para comparar realidades distintas, os municípios foram classificados por porte populacional, segundo faixas definidas pelo número de habitantes, e por quintis do Índice Brasileiro de Privação (IBP). O IBP considera indicadores como renda domiciliar, alfabetização e acesso a saneamento básico; quanto maior o quintil, maior a privação socioeconômica.
+
+Os autores calcularam a mediana dos indicadores em cada combinação de porte populacional, nível de privação e ano. A mediana foi escolhida para reduzir a influência de valores extremos e possíveis problemas de registro. As tendências foram representadas por curvas ajustadas pelo método *loess*, que permite visualizar mudanças no comportamento dos indicadores ao longo do período.
+
+#### Dados e indicadores
+
+Foram utilizados dois grupos principais de indicadores:
+
+- **Estrutura da APS:** despesa municipal em APS por habitante coberto e cobertura populacional da APS. A despesa foi obtida no Sistema de Informações sobre Orçamentos Públicos de Saúde (SIOPS), considerando valores liquidados e atualizados para 2019. A cobertura foi obtida no histórico público do e-Gestor Atenção Básica, do Ministério da Saúde.
+- **Resultados de saúde:** taxas padronizadas de mortalidade e de internações por Condições Sensíveis à Atenção Primária (CSAP). Os dados foram obtidos no Sistema de Informações sobre Mortalidade (SIM) e no Sistema de Informações Hospitalares (SIH), disponibilizados pelo DATASUS.
+
+A análise de mortalidade e internações foi restrita à população adulta. As taxas foram padronizadas pela idade para reduzir o efeito da composição etária diferente entre os municípios. Também foi aplicado um procedimento de correção para sub-registros e causas de morte mal definidas, uma vez que a qualidade do registro pode variar entre localidades.
+
+#### Principais resultados nacionais
+
+Entre 2008 e 2019, a mediana da despesa em APS por habitante coberto aumentou **12,1%**. A mediana da cobertura também cresceu: passou de **98,8% para 100%**. Em 2008, 2.632 municípios apresentavam 100% de cobertura; em 2019, esse número chegou a 3.168 municípios.
+
+Nos indicadores de saúde, a mediana da mortalidade por CSAP aumentou ligeiramente, **0,2%**, enquanto a mediana das internações por CSAP caiu **44,9%**. Portanto, o principal avanço observado nos resultados foi a redução das internações evitáveis, embora a mortalidade não tenha acompanhado essa melhora na mesma intensidade.
+
+#### Diferenças entre os municípios
+
+Os resultados mostram que a evolução foi heterogênea. Municípios menores apresentaram, em geral, maior despesa mediana por habitante coberto. Nos municípios com até 5.000 habitantes, por exemplo, a despesa mediana passou de R$ 698,36 em 2008 para R$ 944,89 em 2019. Ainda assim, dentro desse mesmo grupo, os municípios com maior privação socioeconômica investiram menos por habitante coberto do que os municípios menos privados.
+
+A cobertura foi maior nos municípios com piores condições socioeconômicas e menor porte, enquanto municípios maiores e com melhores condições socioeconômicas apresentaram menor cobertura mediana. Esse resultado não significa necessariamente melhor desempenho nos municípios mais privados: ele pode refletir diferenças no tamanho da população, na forma de organização dos serviços e na capacidade de estimar ou registrar a cobertura.
+
+A desigualdade aparece de maneira mais clara nos resultados de mortalidade. Em 2019, a mediana da mortalidade por CSAP foi de **122,38 óbitos por 100 mil habitantes** nos municípios com privação muito alta, contra **90,39 óbitos por 100 mil habitantes** nos municípios com privação muito baixa. As internações também foram, em geral, mais elevadas nos municípios com maior privação socioeconômica.
+
+As internações diminuíram na maioria dos estratos com população abaixo de 500 mil habitantes. Em 2019, porém, as maiores taxas medianas concentraram-se em alguns municípios de porte intermediário, especialmente na faixa de 20 mil a 50 mil habitantes, que apresentou taxa de 994,24 internações por 100 mil habitantes. Nos municípios com mais de 500 mil habitantes, a tendência das internações se inverteu ao longo do período, passando de aumento até 2014 para redução entre 2014 e 2019.
+
+#### Interpretação dos autores
+
+O estudo relaciona as diferenças de investimento às desigualdades na arrecadação e nas transferências recebidas pelos municípios. A variação da receita de impostos e transferências explicou aproximadamente 52% da variação da despesa em APS por população coberta. Os autores também observam uma mudança nas tendências a partir de 2015, período marcado por recessão econômica, aumento da pobreza e alterações na política fiscal e na organização da APS.
+
+Essa mudança pode indicar que a expansão da cobertura ocorreu ao mesmo tempo que uma redução ou desaceleração dos recursos disponíveis para manter a estrutura dos serviços. Outra possibilidade discutida é a existência de ganhos de eficiência, mas o desenho do estudo não permite distinguir essa hipótese dos efeitos da restrição orçamentária. Os autores também ressaltam que a APS pode apresentar modelos e resultados diferentes entre municípios, mesmo quando a cobertura formal é elevada.
+
+#### Limitações
+
+O trabalho é descritivo e utiliza medianas por grupos de municípios; portanto, seus resultados não representam necessariamente o comportamento de cada município individualmente. A metodologia não permite estabelecer relações causais entre financiamento, cobertura, privação socioeconômica e resultados de saúde. Além disso, parte dos dados de despesa é autorreferida pelos municípios e pode conter erros de preenchimento. A análise também foi limitada às variáveis disponíveis para todo o país e para todo o período, não incluindo aspectos como qualidade de vida, experiência dos usuários, qualificação das equipes, equipamentos e qualidade efetiva do atendimento.
+
+#### Conclusão
+
+Entre 2008 e 2019, houve expansão da estrutura da APS no Brasil, com aumento do gasto mediano e da cobertura, acompanhada principalmente pela redução das internações por condições sensíveis à atenção primária. Entretanto, essa expansão não eliminou as desigualdades entre os municípios. O porte populacional e as condições de privação socioeconômica continuam associados ao financiamento, à cobertura e aos resultados de saúde.
+
+Para os autores, o planejamento da APS deve considerar essas diferenças como elementos centrais da política pública. A ampliação da cobertura, isoladamente, não garante resultados equivalentes: é necessário combinar acesso, financiamento adequado, equipes e estrutura suficientes, organização territorial e capacidade de responder às necessidades específicas de cada população.
+
+---
+
+### 2. Atenção primária à saúde
+
+**Referência:** Matta, Gustavo Corrêa; Morosini, Márcia Valéria Guimarães. *Atenção Primária à Saúde*. In: *Dicionário da Educação Profissional em Saúde*. Escola Politécnica de Saúde Joaquim Venâncio, Fiocruz.
+
+#### Natureza e objetivo do texto
+
+O texto é uma apresentação histórica e conceitual da Atenção Primária à Saúde (APS), também denominada Atenção Básica à Saúde (ABS) no contexto brasileiro. Seu objetivo é explicar as diferentes concepções de atenção primária, a origem de sua organização, sua relação com as reformas dos sistemas de saúde e sua incorporação aos princípios do Sistema Único de Saúde (SUS).
+
+Em vez de tratar a APS apenas como um conjunto de serviços simples ou como a porta de entrada administrativa do sistema, os autores a apresentam como uma estratégia de organização da atenção. Essa estratégia deve responder de forma regionalizada, contínua e sistematizada às necessidades de indivíduos e comunidades, articulando ações de promoção, prevenção, tratamento e acompanhamento.
+
+#### Origem e organização histórica
+
+Uma das referências históricas discutidas é o Relatório Dawson, elaborado na Inglaterra em 1920. O documento propôs uma organização regionalizada e hierarquizada dos serviços, com centros de saúde primários, serviços domiciliares, serviços suplementares e hospitais de ensino. Os centros primários deveriam resolver a maior parte dos problemas de saúde com clínicos gerais e encaminhar os casos que exigissem especialistas ou internação para níveis secundários e hospitalares.
+
+O modelo de Dawson também enfatizou duas características que permanecem importantes na APS: a **regionalização**, pela distribuição dos serviços de acordo com as regiões e suas necessidades populacionais, e a **integralidade**, pela articulação entre ações preventivas e curativas. O texto relaciona essa proposta à necessidade de superar sistemas centrados exclusivamente no hospital, na especialização e no atendimento individual.
+
+#### Alma-Ata e a concepção ampliada de APS
+
+Em 1978, a Conferência Internacional sobre Cuidados Primários de Saúde, realizada em Alma-Ata pela Organização Mundial da Saúde (OMS) e pelo Unicef, consolidou uma concepção internacional de cuidados primários. A declaração defendia que os cuidados deveriam ser essenciais, baseados em métodos cientificamente fundamentados e socialmente aceitáveis, acessíveis universalmente e sustentáveis para a comunidade e o país.
+
+Na perspectiva de Alma-Ata, a APS deveria ser o primeiro nível de contato das pessoas, famílias e comunidades com o sistema nacional de saúde, o mais próximo possível dos locais onde vivem e trabalham. Ela também deveria constituir a função central do sistema de saúde e fazer parte do desenvolvimento social e econômico da comunidade.
+
+Entre as ações mínimas associadas a essa concepção estão a educação em saúde, a prevenção e proteção, a alimentação e nutrição adequadas, o saneamento e tratamento da água, a atenção materno-infantil, o planejamento familiar, a imunização, o controle de doenças endêmicas, o tratamento de doenças comuns e a oferta de medicamentos essenciais.
+
+Os autores destacam que Alma-Ata não propôs um pacote restrito de serviços de baixa complexidade. A declaração defendia sistemas universais, a saúde como direito humano, a participação social e a responsabilidade dos governos na condução das políticas. Essa visão, contudo, passou a conviver com interpretações mais restritas, que transformaram a APS em um conjunto seletivo de ações básicas direcionadas principalmente às populações pobres.
+
+#### APS seletiva e APS universal
+
+O texto diferencia duas orientações políticas. A APS seletiva reduz a atenção primária a intervenções focalizadas e de baixo custo, voltadas para problemas específicos e populações consideradas vulneráveis. Embora possa ampliar algum acesso, essa abordagem se distancia da ideia de universalidade e pode oferecer serviços pouco resolutivos e desconectados da rede de atenção.
+
+Já a APS universal e integral é compreendida como base de um sistema de saúde orientado pelas necessidades da população. Ela articula promoção, prevenção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde. Também precisa coordenar o acesso a outros níveis de atenção, garantindo continuidade do cuidado e resposta aos problemas que não podem ser resolvidos localmente.
+
+#### Construção da Atenção Básica no Brasil
+
+No Brasil, a APS incorporou princípios da Reforma Sanitária e passou a ser denominada Atenção Básica à Saúde para enfatizar a reorientação do modelo assistencial. Essa reorientação se relaciona à construção de um sistema universal e integrado, consolidado pela Constituição de 1988 e regulamentado pelas leis orgânicas do SUS.
+
+O texto apresenta experiências anteriores que contribuíram para essa construção, como os centros de saúde, o Serviço Especial de Saúde Pública (Sesp), o Programa de Interiorização das Ações de Saúde e Saneamento do Nordeste (Piass) e as Ações Integradas de Saúde (AIS). Essas experiências combinaram, em diferentes graus, ações preventivas, curativas, educativas e de organização territorial, mas também conviveram com limitações de acesso, focalização e baixa capacidade de resolver integralmente as necessidades de saúde.
+
+Com o movimento sanitário e a criação do SUS, a Atenção Básica passou a ser associada à universalidade, à descentralização, à integralidade e à participação popular. O propósito era romper com o modelo médico-privatista e hospitalocêntrico e fazer dos serviços básicos um contato prioritário da população com o sistema de saúde.
+
+#### Princípios e características da Atenção Básica
+
+Segundo a definição apresentada no texto, a Atenção Básica é formada por ações individuais e coletivas de promoção e proteção da saúde, prevenção de agravos, diagnóstico, tratamento, reabilitação e manutenção da saúde. Essas ações devem ser desenvolvidas por práticas gerenciais e sanitárias democráticas e participativas, com trabalho em equipe e responsabilidade sobre populações de territórios delimitados.
+
+Entre suas características centrais estão:
+
+- organização territorial e responsabilidade sanitária sobre uma população definida;
+- identificação das necessidades e dos problemas de saúde mais frequentes no território;
+- integração entre prevenção, promoção, tratamento, reabilitação e vigilância;
+- trabalho multiprofissional e participação de trabalhadores de diferentes níveis de formação;
+- uso de tecnologias de elevada complexidade e baixa densidade, adequadas aos problemas mais comuns;
+- acesso preferencial dos usuários ao sistema de saúde;
+- coordenação do cuidado e articulação com os demais níveis de atenção.
+
+O texto relaciona a Atenção Básica aos princípios de universalidade, acessibilidade, vínculo, continuidade, integralidade, responsabilização, humanização, equidade e participação social. Assim, a qualidade da atenção não depende apenas da existência física de uma unidade, mas da capacidade de estabelecer relações duradouras com a população e de acompanhar suas necessidades ao longo do tempo.
+
+#### Estratégia Saúde da Família e agentes comunitários
+
+A Estratégia Saúde da Família aparece como a principal forma de configuração da Atenção Básica no Brasil. Sua proposta aprofunda a territorialização e a responsabilidade sanitária das equipes, que trabalham com uma população adscrita, um número definido de domicílios e famílias e uma compreensão mais próxima das condições de vida locais.
+
+As equipes são compostas principalmente por médicos, profissionais de enfermagem e agentes comunitários de saúde. Os agentes têm papel relevante na educação em saúde, na vigilância, no acompanhamento das famílias e na aproximação entre os serviços e os domicílios. O texto também destaca a contribuição de auxiliares e técnicos de enfermagem e de outros profissionais de nível básico e médio.
+
+Essa organização territorial torna possível conhecer as características da população, acompanhar situações de risco, identificar necessidades não atendidas e planejar ações de acordo com a realidade de cada área. Ao mesmo tempo, a adscrição não deve significar isolamento: as equipes precisam articular o atendimento local com os demais níveis para garantir a integralidade do cuidado.
+
+#### Desafios e conclusão
+
+Apesar dos avanços, permanecem desafios relacionados ao acesso aos serviços especializados, à coordenação entre os níveis de atenção, à capacidade de resposta das unidades e à redução das desigualdades regionais. Também é necessário ajustar continuamente as ações e os serviços locais às mudanças nas necessidades da população.
+
+Em síntese, o texto defende uma Atenção Primária ou Básica universal, integral, territorializada, participativa e coordenadora do cuidado. Para o contexto deste projeto, sua principal contribuição é mostrar que o território não é apenas uma localização geográfica: ele é a base para definir responsabilidades, conhecer as famílias, identificar prioridades e organizar visitas e demais ações de saúde de forma contínua e equitativa.
+
+---
+
+### 3. Territorialização da atenção básica
+
+**Referência:** Faria, Rivaldo Mauro de. *A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil*. Ciência & Saúde Coletiva, v. 25, n. 11, 2020, p. 4521-4530.
+
+#### Objetivo e abordagem
+
+O artigo discute a territorialização da Atenção Básica à Saúde (ABS) em sua dimensão político-ideológica. O objetivo não é apenas apresentar técnicas para delimitar áreas de atendimento, mas refletir sobre como o território participa da construção do modelo assistencial do Sistema Único de Saúde (SUS), das redes de atenção e das responsabilidades entre os diferentes níveis de governo.
+
+Trata-se de uma reflexão teórica e histórica baseada na Constituição, nas leis do SUS, nas normas operacionais, na Política Nacional de Atenção Básica (PNAB), no Pacto pela Saúde e em propostas de planejamento territorial desenvolvidas ao longo das primeiras décadas do sistema. O texto relaciona os marcos legais às mudanças na forma de organizar os serviços, as equipes e as regiões de saúde.
+
+#### O que significa territorialização
+
+Para o autor, territorializar não significa apenas desenhar limites no mapa ou distribuir unidades de saúde por bairros. O território é um espaço social, político e dinâmico, marcado por condições de vida, desigualdades, relações de poder, recursos, formas de circulação e necessidades de saúde. Por isso, o planejamento territorial precisa considerar a população concreta que vive e trabalha em cada área.
+
+A territorialização envolve estabelecer vínculos e pertencimento entre a população e os serviços, definir responsabilidades sanitárias e orientar a oferta de ações de promoção, prevenção e cuidado. Ela também permite que os serviços conheçam os problemas mais frequentes de uma comunidade e organizem respostas compatíveis com suas características, em vez de aplicar uma estrutura uniforme a realidades diferentes.
+
+#### Territorialização como base do SUS
+
+O SUS é apresentado como um projeto nacional de atenção territorializada, organizado de forma descentralizada e regionalizada. A Atenção Básica ocupa uma posição estratégica porque deve estar presente em todo o território nacional, funcionar como porta de entrada e coordenar o acesso aos níveis secundário e terciário.
+
+Nesse modelo, os municípios têm papel importante na organização da porta de entrada, mas não conseguem resolver isoladamente todos os problemas de uma rede universal. A garantia da integralidade exige pactuação entre municípios, estados e União, regionalização dos serviços e mecanismos de gestão compartilhada. Assim, a territorialização da unidade local precisa estar conectada ao planejamento das regiões de saúde e das Redes de Atenção à Saúde.
+
+#### Três movimentos históricos
+
+O artigo organiza o processo histórico de territorialização do SUS em três movimentos político-institucionais:
+
+1. **Municipalização-distritalização (1990-2000):** associada à descentralização, à criação dos sistemas municipais, ao Programa de Agentes Comunitários de Saúde (PACS), ao Programa Saúde da Família (PSF) e à definição do Piso da Atenção Básica. Os distritos sanitários eram pensados como uma escala local de planejamento, na qual a gestão e as ações de saúde coletiva poderiam ser organizadas de forma mais próxima da população.
+2. **Municipalização-regionalização (2000-2006):** surgiu como resposta aos limites de uma municipalização isolada. As Normas Operacionais de Assistência à Saúde (NOAS), o Plano Diretor de Regionalização e a expansão do PSF buscaram organizar o acesso aos serviços em regiões e reduzir a fragmentação entre municípios. O estado passou a ter papel de coordenação e regulação das relações regionais.
+3. **Municipalização-regionalização-redes de atenção (2006-2014):** consolidada com o Pacto pela Saúde, a PNAB e instrumentos de organização das Redes de Atenção à Saúde. A territorialização passou a ser pensada não apenas para a Atenção Básica, mas para integrar os sistemas municipal e regional em uma estrutura compartilhada, com a Estratégia Saúde da Família como principal porta de entrada e ponto de coordenação das redes.
+
+#### Distritos, equipes e Estratégia Saúde da Família
+
+Nos primeiros momentos de construção do SUS, os distritos sanitários representavam uma escala de planejamento capaz de aproximar a gestão das necessidades locais e de substituir gradualmente o modelo médico-privatista. Com a expansão do PSF, a territorialização passou a ser cada vez mais associada à definição das áreas de abrangência das unidades e das equipes de Saúde da Família.
+
+Essa mudança aproximou o planejamento do cotidiano dos domicílios e das famílias. As equipes passaram a trabalhar com uma população adscrita, o que favoreceu o vínculo, a responsabilidade sanitária e o acompanhamento contínuo. A criação do PACS, em 1991, e do PSF, em 1994, ajudou a preencher o vazio programático da municipalização e a transformar a territorialização em diretriz prática da organização da Atenção Básica.
+
+Para o planejamento de visitas, essa abordagem significa que cada domicílio deve ser compreendido dentro de uma área de responsabilidade da equipe. A localização do paciente é importante, mas precisa ser combinada com informações sobre vulnerabilidade, necessidades de saúde, acesso aos serviços, vínculos familiares e condições do território.
+
+#### Limites da municipalização isolada
+
+O autor mostra que a municipalização foi essencial para descentralizar o SUS, mas também produziu fragmentação quando não foi acompanhada por mecanismos regionais de cooperação. Municípios possuem capacidades administrativas, financeiras e populacionais diferentes e, portanto, não conseguem ofertar sozinhos todos os serviços necessários à integralidade do cuidado.
+
+As NOAS procuraram enfrentar esse problema por meio da regionalização, do Plano Diretor de Regionalização e da negociação compartilhada entre municípios e estados. Entretanto, diretrizes gerais não bastam: são necessários instrumentos técnicos, regras de pactuação, financiamento, regulação e governança que tornem possível integrar serviços locais, regionais e especializados.
+
+#### Territorialização e desterritorialização
+
+Uma contribuição central do artigo é mostrar que a territorialização também é uma disputa política. O SUS convive com movimentos que fortalecem a organização local e regional dos serviços e com políticas que podem enfraquecer essa lógica, concentrando decisões, fragmentando redes ou reduzindo o papel social do Estado.
+
+Por isso, a territorialização não deve ser tratada como uma etapa neutra ou puramente operacional. Delimitar uma área, definir uma população de referência, escolher a localização de uma unidade e estabelecer o fluxo de encaminhamentos são decisões que distribuem recursos, responsabilidades e possibilidades de acesso. A desterritorialização ocorre quando essas relações com a população e com o espaço são enfraquecidas ou substituídas por arranjos que desconsideram as necessidades locais.
+
+#### Desafios atuais
+
+O artigo identifica como desafios a sistematização da Atenção Básica nos municípios, a regionalização do cuidado e a integração dos sistemas municipal e regional. Também destaca a necessidade de uma gestão compartilhada capaz de articular diferentes entes federativos e de transformar as redes de atenção em estruturas efetivamente coordenadas.
+
+Outro desafio é evitar que a territorialização se limite a uma divisão administrativa. O planejamento precisa ser atualizado conforme o território muda, considerando crescimento populacional, deslocamentos, desigualdades, novos riscos e mudanças nas condições de vida. A organização das equipes e dos serviços deve acompanhar essa dinâmica e preservar o vínculo com as comunidades.
+
+#### Conclusão e relação com o projeto
+
+O artigo conclui que a territorialização é um processo social, político e assistencial indispensável à realização dos princípios do SUS. Ela orienta a descentralização, a regionalização, a responsabilidade sanitária, o funcionamento da Atenção Básica e a integração das Redes de Atenção à Saúde.
+
+Para o projeto de planejamento de visitas dos Agentes Comunitários de Saúde, a principal contribuição é ampliar a ideia de rota. Uma rota eficiente não deve considerar somente distância ou tempo de deslocamento: deve respeitar as áreas de responsabilidade das equipes, a distribuição territorial das necessidades, as desigualdades de acesso, os vínculos com as famílias e a articulação entre a unidade básica e os demais serviços da rede. O sistema computacional deve apoiar essa organização territorial sem reduzir o território a um conjunto de pontos geográficos.
+
+---
+
+### 4. Atenção e coordenação de redes
+
+**Referência:** Rodrigues, Ludmila Barbosa Bandeira et al. *A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa*. Ciência & Saúde Coletiva, v. 19, n. 2, 2014, p. 343-352.
+
+#### Objetivo e contexto
+
+O artigo analisa as evidências, potencialidades, fragilidades, desafios e perspectivas da Atenção Primária à Saúde (APS) na coordenação das Redes de Atenção à Saúde (RAS). O estudo parte do crescimento das doenças crônicas não transmissíveis e da necessidade de sistemas capazes de oferecer cuidado contínuo, integrado e orientado para as necessidades da população, em vez de atuar apenas sobre episódios agudos.
+
+Os autores defendem que uma rede coordenada pela APS pode melhorar a qualidade clínica, os resultados de saúde, o acesso, a resolubilidade e a satisfação dos usuários, além de reduzir custos locais. Nessa perspectiva, a APS deixa de ser apenas a porta de entrada e assume a responsabilidade de orientar o percurso do usuário pelos diferentes pontos de atenção.
+
+#### Conceitos centrais
+
+O artigo entende a coordenação como a capacidade de garantir a continuidade do cuidado de maneira integrada entre os diferentes serviços. Essa coordenação ocorre em duas dimensões:
+
+- **Vertical:** articulação entre a APS, os serviços especializados, a atenção hospitalar e os demais níveis do sistema;
+- **Horizontal:** integração entre a equipe de APS, outros serviços de saúde, equipamentos sociais e setores que participam do cuidado.
+
+As RAS são apresentadas como organizações formadas por serviços interdependentes, ligados por uma missão comum, objetivos compartilhados e ações cooperativas. A APS deve ocupar uma posição central e estratégica, orientando o cuidado ao longo dos pontos da rede e acompanhando as necessidades da comunidade ao longo do tempo.
+
+#### Método da revisão
+
+Foi realizada uma revisão integrativa da literatura para reunir e sintetizar o conhecimento disponível sobre a atuação da APS na coordenação das RAS. A pergunta norteadora investigou quais eram as evidências científicas, fragilidades, potencialidades, desafios e perspectivas desse papel coordenador.
+
+O processo incluiu formulação do problema, levantamento dos estudos, avaliação dos dados, análise e interpretação dos resultados e apresentação da síntese. Foram incluídos artigos publicados entre 2000 e 2011, nos idiomas português, espanhol ou inglês, que tratassem da APS na coordenação das redes. Foram excluídas dissertações, teses e notas editoriais.
+
+As buscas foram realizadas nas bases Medline, Lilacs e SciELO, entre dezembro de 2011 e janeiro de 2012. Foram utilizados termos relacionados a redes de atenção, coordenação do cuidado, atenção primária à saúde e ação intersetorial. Os artigos foram avaliados pelo título e resumo, depois examinados integralmente e classificados quanto às características metodológicas e ao nível de evidência.
+
+#### Composição dos estudos
+
+Na busca inicial foram encontrados **1.033 artigos**. Após a aplicação dos critérios de seleção, 18 estudos compuseram a amostra final. Dos estudos incluídos, 16 eram brasileiros, um argentino e um produzido na região das Américas. A maioria foi publicada em português e nenhum dos trabalhos selecionados era anterior a 2006.
+
+Quanto aos métodos, sete estudos eram revisões de literatura, três tinham abordagem qualitativa, um tinha abordagem quantitativa, dois utilizavam métodos mistos, três eram estudos de caso e dois eram relatos de experiência. Dez estudos usaram amostragem por conveniência. Dezesseis artigos foram classificados no nível de evidência 4, enquanto dois estudos qualitativos não puderam ser classificados pelo instrumento utilizado.
+
+Esse perfil indica que a produção analisada era importante para compreender experiências e práticas locais, mas ainda apresentava pouca evidência de alta força metodológica. A variedade de desenhos também limitou a comparação direta entre os resultados.
+
+#### Potencialidades identificadas
+
+As potencialidades da APS como coordenadora das redes se sobressaíram às fragilidades. Os estudos apontaram que uma APS fortalecida pode:
+
+- melhorar o acesso e a resolubilidade dos serviços;
+- favorecer a continuidade e a integralidade do cuidado;
+- aumentar a qualidade clínica e a satisfação dos usuários;
+- racionalizar o uso de recursos e reduzir custos do sistema;
+- organizar fluxos entre a atenção básica, os serviços especializados e os hospitais;
+- promover corresponsabilidade entre equipes, serviços e usuários;
+- adaptar o cuidado às condições sociais, demográficas e epidemiológicas da população.
+
+Experiências em municípios como Florianópolis, Belo Horizonte e Vitória mostraram mecanismos capazes de aproximar a APS dos outros pontos de atenção. Entre esses mecanismos estavam políticas de formação profissional, protocolos clínicos, centrais de regulação informatizadas, diretrizes de encaminhamento e processos de educação permanente.
+
+Os resultados foram mais favoráveis em contextos que apresentavam compromisso político com a APS, expansão da Estratégia Saúde da Família, integração da equipe com a rede assistencial e institucionalização de práticas de cuidado compartilhado. Nessas experiências, a APS passou de uma posição restrita de entrada para uma função efetiva de coordenação.
+
+#### Fragilidades e desafios
+
+O principal conjunto de fragilidades estava relacionado à falta de integração entre os serviços. Os estudos identificaram problemas de comunicação, ausência de mecanismos de regulação do acesso, desconhecimento dos profissionais sobre os pontos da rede e falta de sistemas informatizados capazes de acompanhar os fluxos dos usuários.
+
+Também foram apontados como obstáculos a insuficiência de recursos profissionais qualificados, infraestrutura inadequada, sistemas de apoio frágeis, falta de dispositivos logísticos e baixa legitimidade social da APS. Em alguns contextos, gestores e comunidades ainda compreendiam a atenção primária como seletiva, simples ou de baixa complexidade, o que dificultava seu reconhecimento como coordenadora de um sistema abrangente.
+
+Outro desafio é a articulação entre a dimensão vertical e a horizontal da coordenação. Não basta encaminhar o usuário para outro serviço: é necessário garantir comunicação, retorno das informações, acompanhamento do plano de cuidado e responsabilidade compartilhada entre os profissionais. Quando esses processos falham, a APS fica isolada e os trabalhadores precisam compensar individualmente as deficiências de uma rede fragmentada.
+
+#### Condições crônicas e mudança do modelo de cuidado
+
+O crescimento das condições crônicas exige acompanhamento contínuo, prevenção de complicações, educação em saúde e integração entre diferentes profissionais e serviços. Isso entra em conflito com um modelo baseado apenas em consultas pontuais e respostas às agudizações.
+
+Os autores defendem uma mudança de paradigma: o sistema deve passar de uma lógica centrada no atendimento de episódios agudos para uma abordagem dialógica, longitudinal e orientada à produção do cuidado. A ampliação da clínica dos profissionais da APS, o trabalho em equipe e a corresponsabilidade com os usuários são apresentados como recursos importantes para essa transformação.
+
+#### Tecnologia, informação e gestão do cuidado
+
+Para que a APS coordene efetivamente uma rede, são necessários sistemas logísticos e de apoio que permitam acompanhar encaminhamentos, resultados, retornos e necessidades pendentes. Centrais de regulação informatizadas, prontuários e sistemas de comunicação podem reduzir a perda de informações entre os níveis de atenção.
+
+Essa dimensão é especialmente relevante para o projeto de visitas domiciliares. Um sistema de planejamento não deve apenas calcular uma rota: ele pode apoiar a identificação de pacientes prioritários, registrar visitas realizadas, controlar intervalos entre acompanhamentos, comunicar a equipe e integrar informações necessárias para a continuidade do cuidado.
+
+#### Limitações da revisão
+
+Os autores reconhecem que a estratégia de busca pode ter deixado de localizar estudos, especialmente por causa das palavras-chave e descritores utilizados no SciELO. A variedade de métodos dificultou uma comparação mais refinada entre os resultados.
+
+Também foram identificados problemas nos próprios estudos incluídos: muitos utilizaram amostras por conveniência, vários não apresentaram claramente critérios de inclusão e nenhum descreveu adequadamente limitações e possíveis vieses. Como a maior parte das evidências era formada por revisões, estudos de caso e pesquisas qualitativas, seus resultados não podem ser generalizados automaticamente para todos os sistemas de saúde.
+
+#### Conclusão
+
+A revisão conclui que redes de atenção coordenadas pela APS podem produzir impactos positivos na saúde da população com custos suportáveis e em consonância com a estrutura política e jurídica do SUS. Entretanto, a existência formal de uma APS não garante a coordenação: são necessários compromisso político, recursos profissionais e tecnológicos, infraestrutura, comunicação entre serviços, regulação e protocolos compartilhados.
+
+Os autores destacam que as potencialidades encontradas superam as fragilidades, mas que ainda faltam estudos com maior rigor metodológico, validade externa e capacidade de produzir evidências mais robustas. As experiências locais analisadas são valiosas por mostrar caminhos de integração, mas precisam ser complementadas por pesquisas que permitam avaliar resultados em diferentes contextos.
+
+#### Relação com o projeto
+
+Para o artefato de planejamento de visitas, o artigo fornece uma justificativa para integrar roteirização, prioridade clínica e continuidade do cuidado. A rota deve ser planejada dentro de uma rede: considerar a equipe responsável, o território, a urgência, o histórico de visitas, os encaminhamentos e a comunicação com a unidade de saúde. Dessa forma, a tecnologia não apenas reduz deslocamentos, mas ajuda a APS a organizar o cuidado de maneira coordenada, rastreável e centrada nas necessidades dos usuários.
+
+---
+
+### 5. Primária, saúde e SUS
+
+**Referência:** Conselho Nacional de Secretários de Saúde (CONASS). *A Atenção Primária à Saúde no SUS: avanços e ameaças*. CONASS Documenta, n. 38. Brasília, 2021. Organização: Eugênio Vilaça Mendes.
+
+#### Natureza e objetivo da publicação
+
+O documento do CONASS é uma análise abrangente da Atenção Primária à Saúde (APS) no Sistema Único de Saúde. A publicação reúne fundamentos históricos, conceitos, evidências, modelos de organização e debates atuais para defender uma APS pública, universal, territorializada e capaz de coordenar o cuidado nas Redes de Atenção à Saúde.
+
+O texto parte de uma avaliação dupla: a APS brasileira alcançou avanços importantes na ampliação do acesso e na organização da Estratégia Saúde da Família (ESF), mas enfrenta ameaças políticas, financeiras e organizacionais que podem enfraquecer sua capacidade de cuidar da população. A publicação também critica a ideia de que a APS seja um nível simples ou de baixa complexidade.
+
+#### Estrutura e temas centrais
+
+O documento está organizado em capítulos que percorrem a trajetória internacional e brasileira da APS, seus atributos e funções, a relação entre demanda e oferta, a construção social dos serviços, a escolha da Estratégia Saúde da Família, os avanços da APS e as relações entre público e privado.
+
+Também são discutidos os arranjos de prestação de serviços, o estímulo à privatização e à livre escolha, a importância do espaço local e da territorialização, o financiamento por vouchers e o desafio das condições crônicas. Essa organização mostra que a APS é analisada simultaneamente como modelo de atenção, política pública, estrutura de serviços, prática profissional e projeto de proteção social.
+
+#### Concepção de APS
+
+O documento apresenta a APS como o centro de comunicação das Redes de Atenção à Saúde e como a responsável por coordenar o cuidado. Ela deve oferecer o primeiro contato, acompanhar as pessoas ao longo do tempo, resolver a maior parte dos problemas mais frequentes e organizar o acesso aos serviços especializados e hospitalares quando necessário.
+
+Essa função exige atributos como acesso, longitudinalidade, integralidade, coordenação, orientação familiar, orientação comunitária e competência cultural. A APS não deve ser confundida com atendimento barato, simplificado ou restrito a doenças comuns. Ela lida com problemas complexos, com múltiplas dimensões clínicas e sociais, e precisa articular promoção, prevenção, diagnóstico, tratamento, reabilitação, vigilância e cuidados paliativos.
+
+#### Demanda, oferta e construção social
+
+Um dos eixos do documento é o ajuste entre a estrutura da demanda e a estrutura da oferta. A população apresenta necessidades diferentes conforme idade, condições sociais, perfil epidemiológico, prevalência de doenças agudas e crônicas e grau de vulnerabilidade. A oferta de serviços precisa ser planejada para responder a essa diversidade, evitando tanto a falta de atendimento quanto a criação de estruturas desconectadas das necessidades reais.
+
+O texto utiliza a ideia de construção social da APS para mostrar que uma unidade não se torna coordenadora apenas por existir fisicamente. É preciso organizar equipes, processos de trabalho, tecnologias, sistemas de informação, apoio diagnóstico, regulação, educação permanente e relações com a comunidade. O resultado esperado é um equilíbrio entre aquilo que a população necessita e aquilo que a rede consegue oferecer com qualidade.
+
+#### Estratégia Saúde da Família
+
+O documento considera a Estratégia Saúde da Família a opção mais adequada para organizar a APS no SUS. A ESF trabalha com população adscrita, território definido, equipes multiprofissionais, vínculo com as famílias e responsabilidade sanitária. Esse modelo permite conhecer as condições de vida locais e acompanhar os usuários de maneira contínua.
+
+A ESF também favorece a territorialização e a coordenação das redes, pois conecta a unidade de saúde aos domicílios, às famílias, aos serviços especializados e aos equipamentos sociais. Os Agentes Comunitários de Saúde ocupam posição importante nesse arranjo ao realizar ações de educação, vigilância, acompanhamento e aproximação entre a comunidade e a equipe.
+
+Para o documento, a ESF não deve ser tratada como um programa isolado ou temporário, mas como estratégia estruturante de mudança do modelo assistencial. Sua efetividade depende de equipes completas, financiamento estável, condições adequadas de trabalho, apoio técnico, sistemas de informação e integração com os demais pontos de atenção.
+
+#### Avanços identificados
+
+A publicação reúne evidências de que a APS e a ESF contribuíram para ampliar o acesso da população brasileira, melhorar indicadores de saúde e reorganizar o cuidado. A expansão da ESF aumentou a presença da APS nos municípios e fortaleceu o acompanhamento territorial e familiar.
+
+Entre os avanços destacados estão a ampliação da cobertura, a redução de barreiras de acesso, a maior aproximação dos serviços com as comunidades, a organização de equipes multiprofissionais e a melhora de resultados relacionados a condições sensíveis à atenção primária. O documento também menciona o reconhecimento nacional e internacional da experiência brasileira e a produção de evidências por pesquisas científicas e avaliações de opinião.
+
+Esses avanços não significam que todos os municípios tenham alcançado o mesmo nível de qualidade. A expansão quantitativa precisa ser acompanhada de estrutura, financiamento, qualificação profissional, coordenação clínica e capacidade de resposta às necessidades específicas de cada território.
+
+#### Público, privado e organização dos serviços
+
+O documento analisa as funções dos sistemas de saúde e as formas pelas quais Estado, mercado e organizações privadas participam da prestação, do financiamento, da regulação e da gestão dos serviços. A questão central não é apenas quem presta o atendimento, mas quem define prioridades, garante acesso, regula os fluxos, assume riscos e responde pela saúde da população.
+
+Na visão defendida pela publicação, a APS do SUS precisa preservar sua responsabilidade pública, sua base territorial e sua orientação pela equidade. Arranjos de gestão podem ser avaliados, mas não devem romper o vínculo entre equipes e população nem transformar o usuário em consumidor isolado de serviços. A governança em rede e a contratualização precisam estar subordinadas às necessidades sanitárias e aos princípios do SUS.
+
+#### Ameaça à territorialização e à livre escolha
+
+Um dos argumentos centrais é que modelos baseados em quase-mercado, privatização e livre escolha podem enfraquecer a territorialização. Quando o usuário escolhe serviços sem referência territorial e sem uma equipe responsável por seu acompanhamento, pode haver perda de vínculo, fragmentação das informações e dificuldade para identificar necessidades coletivas.
+
+O território é importante porque o bairro e o espaço local influenciam as condições de vida e saúde. A localização permite reconhecer desigualdades, riscos ambientais, redes sociais, barreiras de acesso e padrões de adoecimento. O Código de Endereçamento Postal, por exemplo, pode funcionar como indicador indireto de diferenças na expectativa de vida e nas condições sociais.
+
+A territorialização, portanto, não deve ser vista como limitação da liberdade do usuário, mas como mecanismo de responsabilidade sanitária e de equidade. Ela garante que exista uma equipe encarregada de conhecer a população, planejar ações coletivas e acompanhar pessoas que podem não conseguir procurar espontaneamente os serviços.
+
+#### Financiamento e ameaça dos vouchers
+
+O documento também critica propostas de financiamento por vouchers quando elas substituem a responsabilidade pública por uma lógica de compra individual de serviços. Embora possam parecer ampliar a liberdade de escolha, os vouchers podem favorecer a fragmentação do sistema, dificultar a coordenação do cuidado e reduzir a capacidade de planejamento territorial.
+
+Esse modelo tende a funcionar melhor para demandas agudas e simples do que para condições crônicas, vulnerabilidades sociais e necessidades que exigem acompanhamento contínuo. Na APS, a sustentabilidade depende de financiamento regular, planejamento populacional e distribuição de recursos conforme as necessidades dos territórios, e não apenas conforme a procura individual por atendimento.
+
+#### Condições crônicas e nova clínica
+
+O Brasil enfrenta uma situação de saúde marcada por uma tripla carga de doenças: problemas infecciosos e carenciais, causas externas e forte presença de condições crônicas. Esse cenário exige uma mudança no modelo de atenção, porque consultas isoladas e respostas à agudização não são suficientes para acompanhar diabetes, hipertensão, doenças cardiovasculares, problemas respiratórios, saúde mental e outras condições de longa duração.
+
+O documento defende modelos de atenção às condições crônicas baseados em estratificação de risco, acompanhamento longitudinal, autocuidado apoiado, trabalho multiprofissional, educação em saúde e integração entre serviços. Também propõe uma nova clínica na APS, capaz de combinar conhecimento técnico, vínculo, escuta, decisão compartilhada e compreensão das condições sociais dos usuários.
+
+#### Pandemia e desafios recentes
+
+A pandemia de COVID-19 é apresentada como um grande teste para a Estratégia Saúde da Família. Apesar das dificuldades, a ESF mostrou capacidade de atuar no território, acompanhar famílias, realizar vigilância, orientar a população e manter o cuidado de pessoas com necessidades diversas.
+
+Ao mesmo tempo, a crise expôs limitações de financiamento, infraestrutura, força de trabalho e coordenação. O documento argumenta que a pandemia reforça, em vez de diminuir, a importância de uma APS forte, integrada às redes e preparada para responder tanto a emergências quanto às condições crônicas e necessidades cotidianas.
+
+#### Ameaças principais
+
+As ameaças discutidas incluem a visão simplificada da APS, a redução de recursos, mudanças no financiamento, propostas de privatização, substituição da ESF por modelos menos territorializados, livre escolha sem coordenação, vouchers e fragmentação dos serviços. Também são mencionadas mudanças na configuração das equipes e políticas que podem enfraquecer a base comunitária e territorial do SUS.
+
+Essas ameaças são relevantes porque a APS depende de continuidade e de políticas de longo prazo. Alterações frequentes na forma de financiar, contratar e organizar as equipes podem interromper vínculos, reduzir a capacidade de planejamento e dificultar o acompanhamento de famílias e pacientes prioritários.
+
+#### Conclusão
+
+O documento conclui que a APS é uma das maiores conquistas e um dos principais pilares do SUS. A Estratégia Saúde da Família representa a opção mais coerente com uma atenção universal, integral, equitativa e territorializada, mas seus resultados dependem de compromisso político, financiamento adequado, equipes qualificadas, infraestrutura e integração com as Redes de Atenção à Saúde.
+
+A publicação rejeita reformas que tratem a APS como serviço simples, produto de mercado ou conjunto de consultas isoladas. O fortalecimento do SUS exige preservar a responsabilidade pública, a territorialização, o vínculo com as comunidades e a coordenação do cuidado. A APS deve ser capaz de responder às demandas agudas, acompanhar condições crônicas, enfrentar desigualdades e organizar a rede em torno das necessidades da população.
+
+#### Relação com o projeto
+
+Para o artefato de planejamento de visitas, o documento reforça que a rota deve ser parte de uma estratégia territorial de cuidado. O sistema pode combinar localização, composição da equipe, vulnerabilidade, urgência, condições crônicas, data da última visita e capacidade de atendimento para apoiar decisões mais equitativas.
+
+Mais do que buscar a menor distância, a solução deve ajudar a unidade a cumprir sua responsabilidade sanitária: identificar quem precisa ser visitado, respeitar os intervalos de acompanhamento, distribuir o trabalho entre as equipes, registrar o cuidado realizado e manter a continuidade das informações. Dessa forma, a tecnologia apoia uma APS pública, territorializada e coordenadora, sem reduzir o planejamento a um problema puramente logístico.
