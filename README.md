@@ -19,3 +19,9 @@
 Agentes Comunitários de Saúde do SUS precisam planejar visitas domiciliares em seus territórios, considerando informações clínicas dos pacientes, urgência, intervalo máximo entre visitas e localização geográfica.
 
 O desafio é desenvolver um artefato computacional que auxilie na definição das rotas, distribuindo as visitas entre a equipe e buscando reduzir o percurso ou o tempo de deslocamento, sem deixar de priorizar os pacientes que necessitam de atenção mais urgente.
+
+## Papers
+
+As referências bibliográficas, os links para as fontes e os resumos dos trabalhos estão disponíveis em [papers/_papers.md](papers/_papers.md).
+
+Os arquivos PDF dos artigos são ignorados pelo Git por questões de direitos autorais e não são enviados ao repositório. Para consultar os documentos completos, baixe-os localmente a partir dos links indicados no arquivo [_papers.md](papers/_papers.md) e coloque-os na pasta [papers](papers/).
