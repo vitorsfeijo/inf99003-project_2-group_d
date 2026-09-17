@@ -3,13 +3,13 @@
 
 Links dos trabalhos utilizados:
 
-- **Evolução da estrutura e resultados**: [PDF](evolucao_estrutura_resultados.pdf) -> [artigo](https://www.scielo.br/j/csc/a/rRCVJhncQt95Db9xfMxW6TF/?lang=pt&format=pdf&ilang=en)
-- **Atenção primária à saúde**: [PDF](atencao_primaria_saude.pdf) -> [fonte](http://epsjv.fiocruz.br/upload/d/Atencao_Primaria_a_Saude_-_recortado.pdf)
-- **Territorialização da atenção básica**: [PDF](territorializacao_atencao_basica.pdf) -> [artigo](https://www.scielosp.org/pdf/csc/2020.v25n11/4521-4530/pt)
-- **Atenção e coordenação de redes**: [PDF](atencao_coordenacao_redes.pdf) -> [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/?lang=pt&format=pdf&ilang=en)
+- **Evolução da estrutura e resultados**: [PDF](evolucao_estrutura_resultados.pdf) -> [artigo](https://www.scielo.br/j/csc/a/rRCVJhncQt95Db9xfMxW6TF/?lang=pt)
+- **Atenção primária à saúde**: [PDF](atencao_primaria_saude.pdf) -> [fonte](https://scholar.google.com/citations?view_op=view_citation&hl=pt-BR&user=uFFqgI4AAAAJ&citation_for_view=uFFqgI4AAAAJ:M3ejUd6NZC8C)
+- **Territorialização da atenção básica**: [PDF](territorializacao_atencao_basica.pdf) -> [artigo](https://www.scielosp.org/article/csc/2020.v25n11/4521-4530/)
+- **Atenção e coordenação de redes**: [PDF](atencao_coordenacao_redes.pdf) -> [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/abstract/?lang=pt)
 - **Primária, saúde e SUS**: [PDF](primaria_saude_sus.pdf) -> [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
-- **Tecnologias de Informação e Comunicação para APS**: [PDF](informacao_comunicacao_aps.pdf) -> [fonte](https://www.scielosp.org/pdf/csc/2024.v29n1/e19882022/pt)
-- **Inovações na APS com Tecnologia**: [PDF](inovacao_aps.pdf) -> [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/?lang=pt&format=pdf&ilang=en)
+- **Tecnologias de Informação e Comunicação para APS**: [PDF](informacao_comunicacao_aps.pdf) -> [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/abstract/?lang=pt)
+- **Inovações na APS com Tecnologia**: [PDF](inovacao_aps.pdf) -> [fonte](https://www.scielosp.org/article/csc/2024.v29n1/e19882022/)
 
 
 ## Resumos
