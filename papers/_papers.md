@@ -8,6 +8,9 @@ Links dos trabalhos utilizados:
 - **Territorialização da atenção básica**: [PDF](territorializacao_atencao_basica.pdf) -> [artigo](https://www.scielosp.org/pdf/csc/2020.v25n11/4521-4530/pt)
 - **Atenção e coordenação de redes**: [PDF](atencao_coordenacao_redes.pdf) -> [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/?lang=pt&format=pdf&ilang=en)
 - **Primária, saúde e SUS**: [PDF](primaria_saude_sus.pdf) -> [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
+- **Tecnologias de Informação e Comunicação para APS**: [PDF](informacao_comunicacao_aps.pdf) -> [fonte](https://www.scielosp.org/pdf/csc/2024.v29n1/e19882022/pt)
+- **Inovações na APS com Tecnologia**: [PDF](inovacao_aps.pdf) -> [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/?lang=pt&format=pdf&ilang=en)
+
 
 ## Resumos
 
@@ -392,3 +395,127 @@ A publicação rejeita reformas que tratem a APS como serviço simples, produto 
 Para o artefato de planejamento de visitas, o documento reforça que a rota deve ser parte de uma estratégia territorial de cuidado. O sistema pode combinar localização, composição da equipe, vulnerabilidade, urgência, condições crônicas, data da última visita e capacidade de atendimento para apoiar decisões mais equitativas.
 
 Mais do que buscar a menor distância, a solução deve ajudar a unidade a cumprir sua responsabilidade sanitária: identificar quem precisa ser visitado, respeitar os intervalos de acompanhamento, distribuir o trabalho entre as equipes, registrar o cuidado realizado e manter a continuidade das informações. Dessa forma, a tecnologia apoia uma APS pública, territorializada e coordenadora, sem reduzir o planejamento a um problema puramente logístico.
+
+---
+
+### 6. Inovações na APS com tecnologia
+
+**Referência:** Pinto, Luiz Felipe; Rocha, Cristianne Maria Famer. *Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local*. Ciência & Saúde Coletiva, 2015.
+
+#### Objetivo e contexto
+
+O artigo descreve a implementação e os resultados da Rede de Estações Observatório de Tecnologias de Informação e Comunicação em Serviços de Saúde do Rio de Janeiro (Rede OTICS-RIO). A iniciativa foi criada pela Secretaria Municipal de Saúde do Rio de Janeiro para apoiar a gestão local, a integração da Atenção Primária, a vigilância e a promoção da saúde por meio de ferramentas digitais e mídias sociais.
+
+O texto apresenta os observatórios como estruturas capazes de organizar dados, produzir conhecimento sobre os territórios e ampliar os canais de comunicação entre gestores, profissionais e população. A tecnologia é tratada como instrumento de gestão e de trabalho em rede, e não apenas como recurso administrativo ou de divulgação.
+
+#### Método e organização da Rede
+
+Trata-se de um estudo de caso descritivo sobre a implantação da Rede OTICS-RIO. A experiência foi acompanhada a partir das ações desenvolvidas pelas estações, dos registros nos blogs das equipes e dos indicadores estratégicos disponíveis nos sistemas de informação da Atenção Primária.
+
+A rede foi organizada em 16 estações distribuídas pelo município do Rio de Janeiro, vinculadas às Áreas de Planejamento. As estações funcionavam como espaços de apoio à gestão, à educação permanente, à comunicação e à produção de informações sobre os serviços e os territórios. A implantação acompanhou a expansão das equipes de Saúde da Família e utilizou ferramentas de baixo custo, especialmente blogs e plataformas de publicação na internet.
+
+#### Ferramentas e atividades desenvolvidas
+
+As estações apoiaram a produção e a circulação de informações sobre as unidades, as equipes, as atividades realizadas e os problemas identificados no território. Os blogs permitiram registrar periodicamente o processo de trabalho das equipes, divulgar ações de saúde e tornar visíveis experiências locais que poderiam permanecer restritas à unidade.
+
+Entre as atividades descritas estão:
+
+- apoio à formação e à educação permanente dos trabalhadores;
+- divulgação de dados, notícias, eventos e ações das equipes;
+- registro semanal dos processos de trabalho das unidades;
+- organização de informações para gestores e profissionais;
+- integração entre Atenção Primária, vigilância e promoção da saúde;
+- produção de conteúdos voltados às necessidades de cada território;
+- uso de indicadores de prontuários eletrônicos e de outros sistemas de informação.
+
+O modelo também favoreceu a comunicação entre as estações, as equipes de Saúde da Família, a Secretaria Municipal de Saúde e instituições de ensino. Dessa forma, a rede combinou presença territorial e comunicação digital, aproximando a gestão das unidades e permitindo compartilhar práticas entre diferentes áreas do município.
+
+#### Principais resultados
+
+Até meados de 2015, a Rede OTICS-RIO reunia 16 observatórios e apoiava 193 unidades de Atenção Primária. Os blogs mantidos pelas equipes alcançaram aproximadamente sete milhões de acessos, indicando grande capacidade de disseminação de informações e visibilidade para o trabalho realizado nos territórios.
+
+Os resultados concentram-se em quatro dimensões: formação dos trabalhadores; comunicação entre gestores, profissionais e população; gestão da informação; e integração da Atenção Primária com a vigilância e a promoção da saúde. As estações criaram espaços para cursos, reuniões, oficinas, seminários e troca de experiências.
+
+O registro periódico também permitiu acompanhar a produção das equipes ao longo do tempo. Essa prática tornou possível observar atividades, identificar temas recorrentes e construir uma memória das ações desenvolvidas em cada unidade. Para a gestão, essa visibilidade poderia apoiar o monitoramento, a identificação de necessidades e o planejamento de intervenções.
+
+#### Potencialidades e limites
+
+Uma das principais potencialidades foi utilizar tecnologias simples e de baixo custo para apoiar a comunicação em uma rede pública extensa. A ferramenta não exigia sistemas sofisticados para que as equipes pudessem registrar e divulgar seu trabalho, o que facilitou a implantação e a participação local.
+
+A experiência também mostrou que a inovação depende de organização institucional. A existência de blogs, estações e equipamentos não garante, por si só, a produção de informação útil: é necessário definir responsabilidades, manter os conteúdos atualizados, qualificar os profissionais e integrar os registros às rotinas da gestão.
+
+Entre os desafios estavam a rotatividade dos profissionais, a necessidade de consolidar os conteúdos publicados, a manutenção da qualidade das informações e a articulação entre as estações. Também era necessário evitar que a comunicação digital se limitasse à divulgação de atividades, sem ser incorporada ao planejamento e à avaliação das ações de saúde.
+
+#### Perspectivas e conclusão
+
+Os autores apontam a possibilidade de ampliar o uso de ferramentas de educação a distância para apoiar a formação e a educação permanente das equipes de Saúde da Família. A consolidação das informações produzidas nos blogs e nos sistemas eletrônicos poderia contribuir para análises mais sistemáticas da gestão local e das necessidades dos territórios.
+
+A Rede OTICS-RIO demonstrou que ferramentas de comunicação e informação podem apoiar a gestão local, a qualificação dos trabalhadores e a integração das ações de Atenção Primária. O uso de mídias sociais e observatórios territoriais ampliou a circulação de informações e deu visibilidade ao processo de trabalho das equipes, com baixo custo para o SUS. Entretanto, a tecnologia deve ser acompanhada de processos de trabalho, formação e governança da informação.
+
+#### Relação com o projeto
+
+Para o sistema de planejamento de visitas dos Agentes Comunitários de Saúde, o artigo reforça a importância de registrar e compartilhar informações produzidas no território. Uma solução computacional pode incorporar registros de visitas, indicadores, pendências e atividades das equipes, permitindo que os dados apoiem tanto a organização da rota quanto o acompanhamento da situação de saúde.
+
+Assim como na Rede OTICS-RIO, o valor do sistema não está apenas na ferramenta tecnológica. Ele depende de informações atualizadas, responsabilidades definidas, participação dos profissionais e integração com a gestão da unidade. A tecnologia pode tornar o trabalho territorial mais visível, comunicável e avaliável.
+
+---
+
+### 7. Tecnologias de Informação e Comunicação para APS
+
+**Referência:** Bender, Janaína Duarte; Facchini, Luiz Augusto; Lapão, Luís Miguel Velez; Tomasi, Elaine; Thumé, Elaine. *O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018*. Ciência & Saúde Coletiva, v. 29, n. 1, 2024, e19882022.
+
+#### Objetivo e contexto
+
+O artigo descreve a utilização de Tecnologias de Informação e Comunicação em Saúde (TICS) pelas equipes da Atenção Primária à Saúde no Brasil entre 2014 e 2018. O estudo analisa o uso dessas tecnologias para apoiar a prática clínica, a comunicação com outros pontos da rede e a educação permanente dos profissionais.
+
+As TICS são apresentadas como recursos capazes de produzir, armazenar, transmitir e proteger informações, além de viabilizar comunicações a distância. Na APS, elas podem apoiar decisões clínicas, facilitar o acesso ao conhecimento, organizar encaminhamentos, melhorar a comunicação entre equipes e contribuir para a continuidade do cuidado.
+
+#### Método
+
+Trata-se de um estudo transversal, quantitativo, baseado em dados da avaliação externa do Programa Nacional de Melhoria do Acesso e da Qualidade da Atenção Básica (PMAQ-AB). Foram analisadas informações coletadas junto às equipes participantes dos ciclos II e III do programa, correspondentes aos anos de 2014 e 2018.
+
+A coleta foi realizada por instituições federais de ensino superior, com instrumentos digitais aplicados em tablets a profissionais das unidades, principalmente enfermeiros, médicos e dentistas. Após a coleta, os dados foram transferidos para um banco nacional e submetidos a análises de consistência. Os resultados foram comparados entre as regiões brasileiras e entre os dois ciclos do PMAQ-AB.
+
+No ciclo II participaram 29.778 equipes de Saúde da Família, atuantes em 24.055 Unidades Básicas de Saúde e mais de 5.000 municípios. No ciclo III foram incluídas 37.350 equipes, em 28.939 unidades. Foram investigados recursos como Telessaúde, Rede Universitária de Telemedicina (RUTE), Universidade Aberta do SUS (UNA-SUS), teleconsultoria, telediagnóstico, tele-educação e formas de comunicação entre a APS e a atenção especializada.
+
+#### Uso das tecnologias
+
+O uso da Telessaúde para apoiar a prática clínica aumentou de 32,7% das equipes em 2014 para 54,6% em 2018. No ciclo III, a maior prevalência foi observada na região Sul, com 66,5% das equipes utilizando esse recurso. O uso também cresceu nas regiões Norte e Nordeste, que apresentaram aproximadamente o dobro da utilização entre os dois ciclos.
+
+Entre as modalidades de Telessaúde, a tele-educação foi a mais utilizada: 69,5% das equipes no ciclo II e 73,8% no ciclo III. A teleconsultoria passou de 54,5% para 66,5%, enquanto o telediagnóstico aumentou de 39,8% para 55,5%. A Segunda Opinião Formativa passou de 43,4% para 57,5% no conjunto das equipes que utilizavam Telessaúde.
+
+O telefone 0800 do Telessaúde era utilizado por 31,1% das equipes no ciclo II e por 55,0% no ciclo III. Entre as equipes que avaliaram o atendimento, a proporção que o considerou muito bom também aumentou, de 34,8% para 43,3%. A teleconsultoria era realizada principalmente de forma assíncrona, permitindo o envio de uma dúvida e o recebimento posterior da resposta.
+
+#### Comunicação e coordenação do cuidado
+
+No ciclo III, 89,4% das equipes relataram a existência de algum fluxo institucionalizado de comunicação com a atenção especializada. Entre as formas utilizadas, destacaram-se o contato telefônico, presente em 73,8% das equipes, e a comunicação eletrônica, como e-mail e WhatsApp, utilizada por 61,5%. A Telessaúde foi usada por 24,9%, o prontuário eletrônico por 21,5% e a teleconferência por 12,8%.
+
+Também foi identificada disponibilidade de centrais de regulação para encaminhar usuários aos demais pontos de atenção: 94,9% das equipes relataram contar com esse recurso. Esses resultados indicam avanços na comunicação institucional e na organização dos fluxos, embora a existência de um canal não garanta, isoladamente, comunicação completa, retorno das informações ou continuidade efetiva do cuidado.
+
+#### Barreiras identificadas
+
+Apesar do crescimento observado, persistiram desigualdades entre as regiões e limitações de infraestrutura. Entre as equipes que não utilizavam Telessaúde, os principais motivos foram a inexistência do programa no município ou na unidade e problemas de infraestrutura e conectividade.
+
+No conjunto do país, a falta de oferta do programa foi mencionada por 55,0% das equipes no ciclo II e 50,5% no ciclo III. A infraestrutura e a conectividade foram citadas por 37,0% no ciclo II e 49,6% no ciclo III. Também houve aumento da proporção que relatou dificuldades de acesso, de 8,7% para 35,8%.
+
+Os dados mostram que a expansão dos recursos digitais não ocorreu de maneira uniforme. A falta de computadores com acesso à internet limitava o uso dos sistemas de informação da APS. Portanto, a digitalização depende de investimentos em equipamentos, telecomunicações, interoperabilidade, suporte técnico e qualificação dos trabalhadores.
+
+#### Discussão e limitações
+
+Os autores interpretam os resultados como evidência de avanço no uso das TICS entre 2014 e 2018, mas também de permanência de obstáculos estruturais. A Telessaúde e os demais recursos podem apoiar a prática clínica, a educação permanente, o apoio matricial, a comunicação entre serviços e a regulação dos encaminhamentos.
+
+Entretanto, a tecnologia não substitui a organização dos processos de trabalho. Para produzir efeitos na qualidade da atenção, é preciso que os profissionais tenham tempo, capacitação, conectividade e acesso a sistemas integrados. Também é necessário garantir que a informação circule entre a APS e os serviços especializados, com retorno para a equipe responsável pelo acompanhamento do usuário.
+
+Por ser transversal e baseado na adesão das equipes ao PMAQ-AB, o estudo descreve associações e tendências, mas não estabelece relações causais entre a disponibilidade das tecnologias e os resultados clínicos. Os dados também dependem das informações fornecidas pelas equipes e não permitem avaliar diretamente a qualidade de cada uso, a experiência dos usuários ou o impacto das tecnologias sobre indicadores de saúde.
+
+#### Conclusão
+
+O estudo identifica crescimento importante no uso das TICS para prática clínica, comunicação e educação permanente na APS brasileira entre 2014 e 2018. A ampliação da Telessaúde, da tele-educação e dos fluxos de comunicação pode fortalecer a coordenação do cuidado e a integração da Rede de Atenção à Saúde.
+
+Ao mesmo tempo, permanecem problemas de conectividade, disponibilidade de equipamentos, oferta desigual dos programas e qualificação dos profissionais. O fortalecimento das TICS exige investimento contínuo em infraestrutura, recursos humanos, formação e organização dos processos de trabalho.
+
+#### Relação com o projeto
+
+Para o sistema de planejamento de visitas, o artigo sustenta a necessidade de integrar comunicação e registro ao cálculo da rota. O sistema pode disponibilizar informações atualizadas sobre a última visita, prioridades, encaminhamentos, pendências e orientações da equipe, além de permitir comunicação com a unidade e registro do atendimento realizado.
+
+Essa integração pode melhorar a continuidade do cuidado, mas depende de conectividade, usabilidade e adesão dos profissionais. O projeto deve considerar também situações de indisponibilidade de internet, mecanismos de sincronização e proteção dos dados, para que a ferramenta continue útil em territórios com infraestrutura desigual.
