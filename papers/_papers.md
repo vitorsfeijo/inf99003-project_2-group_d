@@ -10,6 +10,8 @@ Links dos trabalhos utilizados:
 - **Primária, saúde e SUS**: [PDF](primaria_saude_sus.pdf) -> [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
 - **Tecnologias de Informação e Comunicação para APS**: [PDF](informacao_comunicacao_aps.pdf) -> [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/abstract/?lang=pt)
 - **Inovações na APS com Tecnologia**: [PDF](inovacao_aps.pdf) -> [fonte](https://www.scielosp.org/article/csc/2024.v29n1/e19882022/)
+- **Combining mapping to inform the delivery**: [PDF](mapping_delivery.pdf) -> [fonte](https://pmc.ncbi.nlm.nih.gov/articles/PMC11542841/)
+
 
 
 ## Resumos
@@ -519,3 +521,64 @@ Ao mesmo tempo, permanecem problemas de conectividade, disponibilidade de equipa
 Para o sistema de planejamento de visitas, o artigo sustenta a necessidade de integrar comunicação e registro ao cálculo da rota. O sistema pode disponibilizar informações atualizadas sobre a última visita, prioridades, encaminhamentos, pendências e orientações da equipe, além de permitir comunicação com a unidade e registro do atendimento realizado.
 
 Essa integração pode melhorar a continuidade do cuidado, mas depende de conectividade, usabilidade e adesão dos profissionais. O projeto deve considerar também situações de indisponibilidade de internet, mecanismos de sincronização e proteção dos dados, para que a ferramenta continue útil em territórios com infraestrutura desigual.
+
+---
+
+### 8. Mapeamento e otimização de rotas para a entrega de intervenções
+
+**Referência:** Randriamihaja, Mauricianot et al. *Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile*. PLOS Digital Health, v. 3, n. 11, e0000621, 2024.
+
+#### Objetivo e contexto
+
+O artigo demonstra como ferramentas de mapeamento e otimização geográfica podem apoiar o planejamento de intervenções comunitárias que exigem visitas domiciliares. O estudo parte do desafio de garantir acesso equitativo em áreas rurais, onde os Agentes Comunitários de Saúde (ACS) percorrem grandes distâncias e enfrentam caminhos pouco estruturados para alcançar as famílias.
+
+Os autores combinam dados do OpenStreetMap (OSM) com algoritmos de roteirização para estimar recursos, organizar agendas e definir itinerários de trabalhadores comunitários. A proposta é apoiar tanto campanhas de distribuição em massa quanto programas de acompanhamento proativo das famílias, conhecidos no estudo como *proactive community case management* (proCCM).
+
+#### Local e dados utilizados
+
+O estudo foi realizado no distrito rural de Ifanadiana, em Madagascar, uma área montanhosa com aproximadamente 200 mil habitantes. O distrito possui 15 comunas, 195 unidades administrativas locais e comunidades em grande parte acessíveis apenas a pé.
+
+O banco geográfico foi construído com apoio do Humanitarian OpenStreetMap Team e reuniu aproximadamente 108 mil edificações, 20 mil quilômetros de caminhos, 192 quilômetros de estradas e 195 locais de saúde comunitária. As edificações, os caminhos e os limites administrativos foram relacionados para formar perfis geográficos de cada área de responsabilidade dos trabalhadores.
+
+#### Método de otimização
+
+Foi utilizado o algoritmo **Vehicle Routing Problem with Time Windows (VRPTW)**, implementado com o Google OR-Tools. Embora o algoritmo seja frequentemente aplicado a veículos, neste estudo cada trabalhador foi tratado como uma unidade que percorre os caminhos a pé. O local de saúde comunitária funcionou como ponto de partida e retorno, enquanto as edificações representaram os locais a serem visitados.
+
+Antes da otimização, o Open Source Routing Machine (OSRM), baseado no algoritmo de Dijkstra, calculou as menores rotas e os tempos de deslocamento entre todos os pares de edificações e o local de saúde. Essa matriz de tempos foi combinada com o tempo estimado de atendimento em cada domicílio e submetida ao VRPTW, respeitando uma jornada de até oito horas por dia e o retorno ao ponto inicial.
+
+Foram analisados dois cenários principais:
+
+- **Campanhas de distribuição em massa:** visita a todas as edificações, com cinco minutos em locais desocupados e 30 minutos em domicílios ocupados.
+- **ProCCM:** visita mensal aos domicílios estimados como ocupados, com cinco minutos nas casas sem pacientes e 30 minutos nas casas com pacientes. Também foram simuladas frequências de duas e quatro visitas mensais e diferentes durações de atendimento.
+
+Como a base cartográfica não permitia distinguir diretamente domicílios ocupados de outras edificações, os autores atribuíram essa condição aleatoriamente para as simulações. Eles também realizaram 100 novas distribuições aleatórias para avaliar a estabilidade das estimativas.
+
+#### Principais resultados
+
+Para cobrir as 108 mil edificações nas campanhas de distribuição em massa, foram estimados **4.639 dias de trabalho**, aproximadamente 44 mil quilômetros de deslocamento e quase 35 mil horas de atividade. A necessidade variou de cinco a 77 dias de trabalho por área, mostrando que o tamanho e a dispersão das edificações produzem diferenças importantes entre comunidades. O número de edificações apresentou forte correlação com a necessidade de pessoal, maior do que a correlação observada para a área total ou o tamanho da população.
+
+No cenário proCCM, a visita mensal aos aproximadamente 42.481 domicílios ocupados exigiria **1.508 dias de trabalho** no distrito. O deslocamento representou cerca de 34% do tempo total. A necessidade variou de menos de cinco a mais de 20 dias de trabalho por área; 75,4% das áreas precisariam de até dez dias, enquanto quatro áreas exigiriam mais de um trabalhador em tempo integral durante o mês.
+
+Quando a frequência aumentou para duas e quatro visitas por mês, a necessidade total passou, respectivamente, para **3.016 e 6.032 dias de trabalho**. Nas simulações com diferentes tempos de atendimento, a estimativa de trabalhadores para uma visita mensal variou de 199 a 578, alcançando de 268 a 2.020 trabalhadores no cenário de quatro visitas mensais.
+
+As estimativas agregadas foram relativamente robustas à distribuição aleatória dos domicílios ocupados: nas 100 simulações, a necessidade total variou de 1.490 a 1.520 dias de trabalho, diferença inferior a 0,02% em relação à estimativa inicial. Os resultados também permitiram gerar a ordem das visitas, as rotas diárias e os caminhos utilizados por cada trabalhador.
+
+#### Plataforma de apoio à decisão
+
+Os resultados foram incorporados a uma aplicação web desenvolvida em R Shiny. A plataforma permite estimar recursos para campanhas, censos, proCCM e visitas personalizadas. Usuários podem alterar a quantidade de trabalhadores, o número de visitas, os tempos de atendimento e os domicílios selecionados, além de visualizar as rotas em mapas do OSM ou imagens de satélite.
+
+O sistema oferece informações agregadas por distrito, comuna e área local e permite exportar itinerários em formatos GPX, PDF e CSV. Esses formatos favorecem o uso em smartphones, tablets, documentos impressos e outras ferramentas, inclusive em situações de trabalho offline.
+
+#### Limitações e condições de implementação
+
+O modelo assumiu uma velocidade média de caminhada de cinco quilômetros por hora e não incorporou adequadamente efeitos de chuva, estação do ano, relevo, inclinação e condições variáveis dos caminhos. Também depende de hipóteses sobre ocupação dos domicílios, frequência e duração das visitas, que podem diferir da prática cotidiana.
+
+O algoritmo foi mais adequado para atividades previsíveis e repetitivas. Ele não contemplou, por exemplo, retornos prioritários a pacientes, acompanhamento de tuberculose e desnutrição, encaminhamentos, tarefas sazonais ou mudanças nas demandas ao longo do dia. Em comparação com atividades de campo, o modelo subestimou a necessidade de pessoal em alguns contextos, pois não representou todas as responsabilidades dos trabalhadores.
+
+Além disso, a aplicação ainda não havia sido integrada ao fluxo de trabalho dos agentes. Os autores defendem uma implementação participativa, envolvendo trabalhadores e gestores na adaptação das rotas, dos dados e das restrições operacionais. Também ressaltam que fatores como segurança, disponibilidade das famílias, preferências dos trabalhadores e áreas inacessíveis podem ser mais importantes do que a rota geograficamente ótima.
+
+#### Relação com o projeto
+
+O artigo oferece uma base técnica diretamente relacionada ao sistema de planejamento de visitas dos ACS. Ele sustenta o uso combinado de dados territoriais, matriz de tempos, restrições de jornada, prioridade das visitas e algoritmos de roteirização para produzir agendas viáveis, em vez de ordenar domicílios apenas pela distância em linha reta.
+
+Ao mesmo tempo, suas limitações reforçam que a rota deve ser um apoio à decisão, e não uma substituição do conhecimento dos ACS e da equipe. O projeto deve permitir atualizar domicílios e caminhos, considerar prioridades clínicas e retornos, registrar visitas realizadas, adaptar a agenda a imprevistos e operar com conectividade limitada. Assim, a otimização geográfica contribui para reduzir deslocamentos e distribuir o trabalho, mas permanece articulada à territorialização, à continuidade do cuidado e às necessidades reais das famílias.
