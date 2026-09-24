@@ -1,4 +1,4 @@
-# Planejamento de visitas dos Agentes Comunitários de Saúde
+# Planejamento de visitas domiciliares de equipes de saúde
 
 > Artefato computacional para apoiar o planejamento de visitas domiciliares na Atenção Primária à Saúde.
 
@@ -16,9 +16,11 @@
 
 ## Problema
 
-Agentes Comunitários de Saúde do SUS precisam planejar visitas domiciliares em seus territórios, considerando informações clínicas dos pacientes, urgência, intervalo máximo entre visitas e localização geográfica.
+Equipes de saúde precisam planejar visitas domiciliares em seus territórios, considerando as condições acompanhadas, a urgência, o intervalo máximo entre visitas e a localização dos pacientes. Neste protótipo, cada equipe é formada por um médico, um enfermeiro e um assistente social, que percorrem juntos uma rota diária.
 
-O desafio é desenvolver um artefato computacional que auxilie na definição das rotas, distribuindo as visitas entre a equipe e buscando reduzir o percurso ou o tempo de deslocamento, sem deixar de priorizar os pacientes que necessitam de atenção mais urgente.
+O desafio é desenvolver um artefato computacional com mapa interativo para marcar o posto, as casas dos pacientes e as regiões de atuação. O mapa também exibe as rotas dos próximos N dias de trabalho, com uma cor por equipe e partida e retorno ao posto. O plano é atualizado quando visitas forem concluídas ou não puderem ser realizadas.
+
+O escopo do protótipo, a formulação do problema, as heurísticas, a análise de complexidade e o plano experimental estão em [plano_de_desenvolvimento.md](plano_de_desenvolvimento.md).
 
 ## Papers
 
