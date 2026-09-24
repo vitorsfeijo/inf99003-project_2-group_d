@@ -1,0 +1,96 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[brazilian]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
+
+\begin{document}
+
+\tikzset{
+  box/.style={
+    rectangle, rounded corners=5pt,
+    text width=2.9cm, minimum height=0.78cm,
+    align=center, font=\scriptsize\sffamily,
+    draw, thick
+  },
+  inp/.style={box, fill=blue!10, draw=blue!60},
+  core/.style={box, fill=orange!12, draw=orange!75},
+  outbox/.style={box, fill=green!12, draw=green!65},
+  ev/.style={box, fill=red!10, draw=red!65, text width=3.0cm},
+  replan/.style={box, fill=purple!10, draw=purple!65, text width=3.2cm},
+  arr/.style={-{Stealth[length=5pt]}, thick, gray!75},
+  looparr/.style={-{Stealth[length=5pt]}, thick, purple!85, dashed}
+}
+
+\begin{tikzpicture}[node distance=0.35cm and 0.9cm]
+
+  % === COLUNA 1: ENTRADA ===
+  \node[inp] (e1) {Cenário e Território};
+  \node[inp, below=of e1] (e2) {Histórico de Visitas};
+  \node[inp, below=of e2] (e3) {Equipes e Jornadas};
+
+  % === COLUNA 2: PREPARAÇÃO ===
+  \node[core, right=of e1] (p1) {Validação de Dados};
+  \node[core, below=of p1] (p2) {Prazos e Pendências};
+  \node[core, below=of p2] (p3) {Grafo e Matriz Custos};
+
+  % === COLUNA 3: OTIMIZAÇÃO ===
+  \node[core, right=of p1] (o1) {Planejador ($N$ dias)\\[1pt]\scriptsize Heurística / Baseline};
+  \node[core, below=of o1] (o2) {Melhoria Local\\[1pt]\scriptsize (2-opt nas rotas)};
+  \node[core, below=of o2] (o3) {Verificador\\[1pt]\scriptsize (Capacidade e Regras)};
+
+  % === COLUNA 4: SAÍDA ===
+  \node[outbox, right=of o1] (s1) {Rotas por Equipe\\[1pt]\scriptsize (Mapa OSM)};
+  \node[outbox, below=of s1] (s2) {Métricas de Qualidade\\[1pt]\scriptsize (Atraso e Custo)};
+  \node[outbox, below=of s2] (s3) {Exportação em Arquivo\\[1pt]\scriptsize (CSV e GPX)};
+
+  % === GRUPOS DE FUNDO SUPERIORES ===
+  \begin{scope}[on background layer]
+    \node[draw=blue!45, fill=blue!3, rounded corners=6pt,
+          fit=(e1)(e2)(e3), inner sep=6pt,
+          label={[font=\scriptsize\sffamily\bfseries, text=blue!80]above:1. Entradas}] (bg_inp) {};
+    \node[draw=orange!55, fill=orange!3, rounded corners=6pt,
+          fit=(p1)(p2)(p3)(o1)(o2)(o3), inner sep=6pt,
+          label={[font=\scriptsize\sffamily\bfseries, text=orange!90]above:2. Núcleo de Otimização}] (bg_core) {};
+    \node[draw=green!55, fill=green!3, rounded corners=6pt,
+          fit=(s1)(s2)(s3), inner sep=6pt,
+          label={[font=\scriptsize\sffamily\bfseries, text=green!80]above:3. Saídas}] (bg_out) {};
+  \end{scope}
+
+  % === LINHA DE REPLANEJAMENTO (BEM ABAIXO, SEM ENCOSTAR) ===
+  \node[ev, below=1.2cm of s3] (exec) {Registro em Campo\\[1pt]\scriptsize (Concluída / Não realizada)};
+  \node[replan, left=1.2cm of exec] (rep) {Replanejamento Dinâmico\\[1pt]\scriptsize (Avanço da janela $N$)};
+
+  \begin{scope}[on background layer]
+    \node[draw=purple!50, fill=purple!3, rounded corners=6pt,
+          fit=(rep)(exec), inner sep=6pt,
+          label={[font=\scriptsize\sffamily\bfseries, text=purple!80]below:Ciclo Dinâmico de Replanejamento}] (bg_rep) {};
+  \end{scope}
+
+  % === CONEXÕES ENTRADA -> PREPARAÇÃO ===
+  \draw[arr] (e1.east) -- (p1.west);
+  \draw[arr] (e2.east) -- (p2.west);
+  \draw[arr] (e3.east) -- (p3.west);
+
+  % === FLUXO INTERNO NÚCLEO ===
+  \draw[arr] (p1) -- (p2);
+  \draw[arr] (p2) -- (p3);
+  \draw[arr] (p2.east) -- (o1.west);
+  \draw[arr] (p3.east) -- ++(0.25,0) |- (o1.west);
+  \draw[arr] (o1) -- (o2);
+  \draw[arr] (o2) -- (o3);
+
+  % === CONEXÕES NÚCLEO -> SAÍDA ===
+  \draw[arr] (o1.east) -- (s1.west);
+  \draw[arr] (o3.east) -- ++(0.35,0) |- (s2.west);
+  \draw[arr] (s2) -- (s3);
+
+  % === LOOP DE EXECUÇÃO E REPLANEJAMENTO (ROTA LIMPA POR FORA) ===
+  \draw[looparr] (s1.east) -- ++(0.45,0) |- (exec.east);
+  \draw[looparr] (exec) -- (rep);
+  \draw[looparr] (rep.west) -| ($(bg_inp.west) + (-0.35,0)$) |- (e2.west);
+
+\end{tikzpicture}
+\end{document}
