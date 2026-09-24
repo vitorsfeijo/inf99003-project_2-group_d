@@ -8,18 +8,18 @@ As fontes apresentam soluções em diferentes níveis. Algumas descrevem sistema
 
 | Solução | Paper(s) de origem | Função principal | Usuários envolvidos |
 | --- | --- | --- | --- |
-| Monitoramento de indicadores da APS | **1. Evolução da estrutura e resultados** | Acompanhar cobertura, financiamento, internações e desigualdades | Gestores municipais, coordenações e equipes |
-| Cadastro territorial e populacional | **2. Atenção primária à saúde**; **3. Territorialização da atenção básica**; **5. Primária, saúde e SUS** | Organizar população, domicílios, famílias e áreas de responsabilidade | ACS, equipes de Saúde da Família e gestores |
-| Sistema geográfico de territorialização | **2. Atenção primária à saúde**; **3. Territorialização da atenção básica**; **5. Primária, saúde e SUS**; **8. Mapeamento e otimização de rotas** | Relacionar território, necessidades, recursos e rede de serviços | Gestores, planejadores e equipes |
-| Coordenação da rede de atenção | **4. Atenção e coordenação de redes**; **5. Primária, saúde e SUS**; **7. Tecnologias de Informação e Comunicação para APS** | Controlar encaminhamentos, retornos, referências e planos de cuidado | APS, serviços especializados e regulação |
-| Gestão da APS orientada por risco | **1. Evolução da estrutura e resultados**; **4. Atenção e coordenação de redes**; **5. Primária, saúde e SUS** | Planejar oferta, capacidade, equipes e acompanhamento longitudinal | Gestores e coordenações da APS |
-| Observatório local de informação | **6. Inovações na APS com tecnologia** | Registrar, divulgar e analisar o trabalho das equipes | Profissionais, gestores, ensino e comunidade |
-| Telessaúde e comunicação digital | **4. Atenção e coordenação de redes**; **6. Inovações na APS com tecnologia**; **7. Tecnologias de Informação e Comunicação para APS** | Apoiar decisões clínicas, educação e comunicação entre serviços | Equipes da APS e especialistas |
-| Roteirização de visitas domiciliares | **3. Territorialização da atenção básica**; **4. Atenção e coordenação de redes**; **5. Primária, saúde e SUS**; **8. Mapeamento e otimização de rotas** | Produzir agendas e caminhos considerando tempo, distância e prioridade | ACS, supervisores e gestores |
+| Monitoramento de indicadores da APS | **1. Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019**<br> | Acompanhar cobertura, financiamento, internações e desigualdades | Gestores municipais, coordenações e equipes |
+| Cadastro territorial e populacional | **2. Atenção Primária à Saúde**<br>**3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**<br>**5. A Atenção Primária à Saúde no SUS: avanços e ameaças**<br> | Organizar população, domicílios, famílias e áreas de responsabilidade | ACS, equipes de Saúde da Família e gestores |
+| Sistema geográfico de territorialização | **2. Atenção Primária à Saúde**<br>**3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**<br>**5. A Atenção Primária à Saúde no SUS: avanços e ameaças**<br>**8. Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile**<br> | Relacionar território, necessidades, recursos e rede de serviços | Gestores, planejadores e equipes |
+| Coordenação da rede de atenção | **4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa**<br>**5. A Atenção Primária à Saúde no SUS: avanços e ameaças**<br>**7. O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018**<br> | Controlar encaminhamentos, retornos, referências e planos de cuidado | APS, serviços especializados e regulação |
+| Gestão da APS orientada por risco | **1. Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019**<br>**4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa**<br>**5. A Atenção Primária à Saúde no SUS: avanços e ameaças**<br> | Planejar oferta, capacidade, equipes e acompanhamento longitudinal | Gestores e coordenações da APS |
+| Observatório local de informação | **6. Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local**<br> | Registrar, divulgar e analisar o trabalho das equipes | Profissionais, gestores, ensino e comunidade |
+| Telessaúde e comunicação digital | **4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa**<br>**6. Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local**<br>**7. O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018**<br> | Apoiar decisões clínicas, educação e comunicação entre serviços | Equipes da APS e especialistas |
+| Roteirização de visitas domiciliares | **3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**<br>**4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa**<br>**5. A Atenção Primária à Saúde no SUS: avanços e ameaças**<br>**8. Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile**<br> | Produzir agendas e caminhos considerando tempo, distância e prioridade | ACS, supervisores e gestores |
 
 ## 1. Monitoramento de indicadores da APS
 
-**Paper de origem:** **1. Evolução da estrutura e resultados** — Barros, Aquino e Souza, *Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019*.
+**Paper de origem:** **1. Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019** — Barros, Aquino e Souza.
 
 O estudo não apresenta uma plataforma nova, mas mostra como sistemas públicos de informação podem ser combinados para avaliar a estrutura e os resultados da APS. A solução tecnológica central é um ambiente de monitoramento que reúna dados de financiamento, cobertura e resultados de saúde para apoiar decisões baseadas em evidências.
 
@@ -50,7 +50,7 @@ Os indicadores são agregados e descritivos. Eles ajudam a orientar decisões, m
 
 ## 2. Cadastro territorial e populacional da APS
 
-**Papers de origem:** **2. Atenção primária à saúde**; **3. Territorialização da atenção básica**; **5. Primária, saúde e SUS**.
+**Papers de origem:** **2. Atenção Primária à Saúde**; **3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**; **5. A Atenção Primária à Saúde no SUS: avanços e ameaças**.
 
 Esses trabalhos tratam território, população adscrita e responsabilidade sanitária como elementos estruturantes da APS. A solução tecnológica correspondente é um cadastro territorial que relacione pessoas, famílias, domicílios, equipes, unidades e necessidades de saúde.
 
@@ -79,7 +79,7 @@ Territorialização não é apenas desenhar polígonos no mapa. O cadastro deve 
 
 ## 3. Sistema geográfico de territorialização
 
-**Papers de origem:** **2. Atenção primária à saúde**; **3. Territorialização da atenção básica**; **5. Primária, saúde e SUS**; **8. Mapeamento e otimização de rotas** — Randriamihaja et al., *Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile*.
+**Papers de origem:** **2. Atenção Primária à Saúde**; **3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**; **5. A Atenção Primária à Saúde no SUS: avanços e ameaças**; **8. Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile** — Randriamihaja et al.
 
 Os trabalhos mostram que o território deve ser analisado como espaço social, político e dinâmico. A solução tecnológica é um Sistema de Informação Geográfica (SIG) integrado aos cadastros da APS e à rede de serviços.
 
@@ -109,7 +109,7 @@ Mapas públicos podem estar incompletos ou desatualizados. O sistema deve regist
 
 ## 4. Coordenação da rede de atenção
 
-**Papers de origem:** **4. Atenção e coordenação de redes** — Rodrigues et al., *A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa*; **5. Primária, saúde e SUS**; **7. Tecnologias de Informação e Comunicação para APS**.
+**Papers de origem:** **4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa** — Rodrigues et al.; **5. A Atenção Primária à Saúde no SUS: avanços e ameaças**; **7. O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018**.
 
 A revisão mostra que a APS precisa coordenar o cuidado verticalmente, com especialistas e hospitais, e horizontalmente, com outros serviços, setores e equipamentos sociais. A solução tecnológica é um sistema de coordenação de encaminhamentos e planos de cuidado compartilhados.
 
@@ -138,7 +138,7 @@ A existência de um canal de comunicação não garante coordenação. O sistema
 
 ## 5. Gestão da APS orientada por risco e capacidade
 
-**Paper de origem:** **5. Primária, saúde e SUS** — CONASS, *A Atenção Primária à Saúde no SUS: avanços e ameaças*.
+**Paper de origem:** **5. A Atenção Primária à Saúde no SUS: avanços e ameaças** — CONASS.
 
 O documento defende uma APS territorializada, longitudinal e capaz de responder à diversidade das necessidades. A solução tecnológica é uma plataforma de planejamento que conecte demanda, risco, oferta, força de trabalho e resultados.
 
@@ -167,7 +167,7 @@ A estratificação não deve produzir exclusão automática. Usuários de baixo 
 
 ## 6. Observatório local de informação e comunicação
 
-**Paper de origem:** **6. Inovações na APS com tecnologia** — Pinto e Rocha, *Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local*.
+**Paper de origem:** **6. Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local** — Pinto e Rocha.
 
 A Rede OTICS-RIO mostra uma solução baseada em estações territoriais, blogs, sistemas de informação e espaços de educação permanente. Seu objetivo é tornar visível o trabalho das unidades e transformar registros cotidianos em informação para gestão.
 
@@ -196,7 +196,7 @@ A plataforma não deve ser reduzida a um mural de notícias. Seu valor está em 
 
 ## 7. Telessaúde e comunicação digital
 
-**Paper de origem:** **7. Tecnologias de Informação e Comunicação para APS** — Bender et al., *O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018*.
+**Paper de origem:** **7. O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018** — Bender et al.
 
 O estudo identifica Telessaúde, teleconsultoria, telediagnóstico, tele-educação e canais institucionais de comunicação como recursos para apoiar a prática clínica, a formação e a integração com a atenção especializada.
 
@@ -225,7 +225,7 @@ O estudo mostra desigualdade de infraestrutura, conectividade e oferta dos progr
 
 ## 8. Mapeamento e otimização de rotas
 
-**Paper de origem:** **8. Mapeamento e otimização de rotas** — Randriamihaja et al., *Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile*.
+**Paper de origem:** **8. Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile** — Randriamihaja et al.
 
 O artigo apresenta a solução tecnológica mais diretamente relacionada ao problema do projeto: combinar dados geográficos detalhados com roteirização sujeita a restrições de jornada e tempo de atendimento.
 

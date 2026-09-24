@@ -3,14 +3,14 @@
 
 Links dos trabalhos utilizados:
 
-- **Evolução da estrutura e resultados**: [PDF](evolucao_estrutura_resultados.pdf) -> [artigo](https://www.scielo.br/j/csc/a/rRCVJhncQt95Db9xfMxW6TF/?lang=pt)
-- **Atenção primária à saúde**: [PDF](atencao_primaria_saude.pdf) -> [fonte](https://scholar.google.com/citations?view_op=view_citation&hl=pt-BR&user=uFFqgI4AAAAJ&citation_for_view=uFFqgI4AAAAJ:M3ejUd6NZC8C)
-- **Territorialização da atenção básica**: [PDF](territorializacao_atencao_basica.pdf) -> [artigo](https://www.scielosp.org/article/csc/2020.v25n11/4521-4530/)
-- **Atenção e coordenação de redes**: [PDF](atencao_coordenacao_redes.pdf) -> [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/abstract/?lang=pt)
-- **Primária, saúde e SUS**: [PDF](primaria_saude_sus.pdf) -> [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
-- **Tecnologias de Informação e Comunicação para APS**: [PDF](informacao_comunicacao_aps.pdf) -> [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/abstract/?lang=pt)
-- **Inovações na APS com Tecnologia**: [PDF](inovacao_aps.pdf) -> [fonte](https://www.scielosp.org/article/csc/2024.v29n1/e19882022/)
-- **Combining mapping to inform the delivery**: [PDF](mapping_delivery.pdf) -> [fonte](https://pmc.ncbi.nlm.nih.gov/articles/PMC11542841/)
+- **Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019**: [artigo](https://www.scielo.br/j/csc/a/rRCVJhncQt95Db9xfMxW6TF/?lang=pt)
+- **Atenção Primária à Saúde**: [fonte](https://scholar.google.com/citations?view_op=view_citation&hl=pt-BR&user=uFFqgI4AAAAJ&citation_for_view=uFFqgI4AAAAJ:M3ejUd6NZC8C)
+- **A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil**: [artigo](https://www.scielosp.org/article/csc/2020.v25n11/4521-4530/)
+- **A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa**: [artigo](https://www.scielo.br/j/csc/a/nBKRxhLTPkdp489zfNGhKnt/abstract/?lang=pt)
+- **A Atenção Primária à Saúde no SUS: avanços e ameaças**: [fonte](https://www.conass.org.br/biblioteca/conass-documenta-38/)
+- **O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018**: [fonte](https://www.scielo.br/j/csc/a/CFj6GmKwqyCMHTrpNPJQLXM/abstract/?lang=pt)
+- **Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local**: [fonte](https://www.scielosp.org/article/csc/2024.v29n1/e19882022/)
+- **Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile**: [fonte](https://pmc.ncbi.nlm.nih.gov/articles/PMC11542841/)
 
 
 
@@ -18,7 +18,7 @@ Links dos trabalhos utilizados:
 
 ---
 
-### 1. Evolução da estrutura e resultados
+### 1. Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019
 
 **Referência:** Barros, Rafael Damasceno de; Aquino, Rosana; Souza, Luis Eugênio Portela Fernandes. *Evolução da estrutura e resultados da Atenção Primária à Saúde no Brasil entre 2008 e 2019*. Ciência & Saúde Coletiva, 2022.
 
@@ -79,7 +79,7 @@ Para os autores, o planejamento da APS deve considerar essas diferenças como el
 
 ---
 
-### 2. Atenção primária à saúde
+### 2. Atenção Primária à Saúde
 
 **Referência:** Matta, Gustavo Corrêa; Morosini, Márcia Valéria Guimarães. *Atenção Primária à Saúde*. In: *Dicionário da Educação Profissional em Saúde*. Escola Politécnica de Saúde Joaquim Venâncio, Fiocruz.
 
@@ -151,7 +151,7 @@ Em síntese, o texto defende uma Atenção Primária ou Básica universal, integ
 
 ---
 
-### 3. Territorialização da atenção básica
+### 3. A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil
 
 **Referência:** Faria, Rivaldo Mauro de. *A territorialização da Atenção Básica à Saúde do Sistema Único de Saúde do Brasil*. Ciência & Saúde Coletiva, v. 25, n. 11, 2020, p. 4521-4530.
 
@@ -215,7 +215,7 @@ Para o projeto de planejamento de visitas dos Agentes Comunitários de Saúde, a
 
 ---
 
-### 4. Atenção e coordenação de redes
+### 4. A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa
 
 **Referência:** Rodrigues, Ludmila Barbosa Bandeira et al. *A atenção primária à saúde na coordenação das redes de atenção: uma revisão integrativa*. Ciência & Saúde Coletiva, v. 19, n. 2, 2014, p. 343-352.
 
@@ -304,7 +304,7 @@ Para o artefato de planejamento de visitas, o artigo fornece uma justificativa p
 
 ---
 
-### 5. Primária, saúde e SUS
+### 5. A Atenção Primária à Saúde no SUS: avanços e ameaças
 
 **Referência:** Conselho Nacional de Secretários de Saúde (CONASS). *A Atenção Primária à Saúde no SUS: avanços e ameaças*. CONASS Documenta, n. 38. Brasília, 2021. Organização: Eugênio Vilaça Mendes.
 
@@ -400,7 +400,7 @@ Mais do que buscar a menor distância, a solução deve ajudar a unidade a cumpr
 
 ---
 
-### 6. Inovações na APS com tecnologia
+### 6. Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local
 
 **Referência:** Pinto, Luiz Felipe; Rocha, Cristianne Maria Famer. *Inovações na Atenção Primária em Saúde: o uso de ferramentas de tecnologia de comunicação e informação para apoio à gestão local*. Ciência & Saúde Coletiva, 2015.
 
@@ -462,7 +462,7 @@ Assim como na Rede OTICS-RIO, o valor do sistema não está apenas na ferramenta
 
 ---
 
-### 7. Tecnologias de Informação e Comunicação para APS
+### 7. O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018
 
 **Referência:** Bender, Janaína Duarte; Facchini, Luiz Augusto; Lapão, Luís Miguel Velez; Tomasi, Elaine; Thumé, Elaine. *O uso de Tecnologias de Informação e Comunicação em Saúde na Atenção Primária à Saúde no Brasil, de 2014 a 2018*. Ciência & Saúde Coletiva, v. 29, n. 1, 2024, e19882022.
 
@@ -524,7 +524,7 @@ Essa integração pode melhorar a continuidade do cuidado, mas depende de conect
 
 ---
 
-### 8. Mapeamento e otimização de rotas para a entrega de intervenções
+### 8. Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile
 
 **Referência:** Randriamihaja, Mauricianot et al. *Combining OpenStreetMap mapping and route optimization algorithms to inform the delivery of community health interventions at the last mile*. PLOS Digital Health, v. 3, n. 11, e0000621, 2024.
 

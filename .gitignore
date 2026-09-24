@@ -8,3 +8,7 @@ slides/*.nav
 slides/*.out
 slides/*.snm
 slides/*.toc
+
+# Ignore the pdfs inside of projeto de pesquisa directory
+projeto_de_pesquisa/Estrutura de Projeto de Pesquisa.pdf
+projeto_de_pesquisa/Guia_Template_Projeto.pdf
